@@ -10,15 +10,15 @@
 	require_once($root.'header.php'); ?>
 <!-- end header -->
 <!-- start content -->
-<div id="default-content">
+<div  class="container">
 <?php
 	require_once($view);
 ?>
-</div>
 <!-- end content -->
 <!-- start footer -->
 	<?php require_once($root.'footer.php'); ?>
 <!-- end footer -->
+</div>
 	<?php require_once('cocoasScripts.js'); ?>
 </body>
 </html>
